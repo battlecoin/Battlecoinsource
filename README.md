@@ -4,7 +4,7 @@ SHA256 Proof of Stake
 
 100,000,000 Total Proof of Work Coins
 
-Blocks > 5000 = 1000 Coins; Blocks > 10000 = 500 Coins; Blocks after 15,000 = 50 Coins
+Blocks > 5000 = 1000 Coins; Blocks > 5000 = 500 Coins; Blocks after 11000 = 50 Coins
 
 1% Stake, 10 days required, 20 days to full age
 
