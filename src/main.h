@@ -37,6 +37,8 @@ static const int64 MAX_MINT_PROOF_OF_STAKE = 0.01 * MAX_MINT_PROOF_OF_WORK;	//1%
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 static const unsigned int MAX_TX_COMMENT_LEN = 268; // Battlecoin: 256 bytes + 12 little extra
 
+static const unsigned int REWARD_FIX_SWITCH_TIME = 1391860800; // 8 FEB 2014 12:00:00 UTC
+
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
